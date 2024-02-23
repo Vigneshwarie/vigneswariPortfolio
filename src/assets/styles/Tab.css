@@ -2,15 +2,20 @@
      display: flex;
      justify-content: space-around;
      align-items: center;
-     background-color: #f2f2f2;
-     padding: 10px;
-     border-radius: 10px;
-     margin: 10px;
+     background-color: #FADFCA;
      box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+     font-size: large;
+     font-weight: bold;
+     color: #636363;
 }
 
-.tabHeader h2{
-     margin: 0;
-     padding: 10px;
-     font-size: 1.5rem;
+.tabBody{
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     background-color: #FADFCA;
+     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+     height: 50vh;
+     font-size: medium;
+     color: #636363;
 }

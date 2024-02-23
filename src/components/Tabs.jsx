@@ -10,13 +10,13 @@ function TabSample() {
                className="mb-3 tabHeader"
                fill
           >    
-               <Tab eventKey="about" title="About">
+               <Tab eventKey="about" title="About" className='tabBody'>
                     <p>
-                         This is Vigneswari Sambandam aka Viggy. I live in Cincinnati, Ohio, and am doing my masters in Information Technology. I'm an accomplished IT professional with 14 years of experience developing and architecting IT applications across industries with a proven track record of delivering value to Healthcare, Telecom, and Service Industries businesses. I wanted to upskill myself and embrace the changes and happenings in recent years in IT. So, I took a break and came to the US for a master's, and I'm also doing the Berkeley Coding Bootcamp for additional skills. Apart from work and studies, I love watching movies, listening to music, and sometimes reading books. I empathize with people and hate all kinds of discrimination against people in all forms.
+                         This is Vigneswari Sambandam aka Viggy. I am currently doing my masters in Information Technology. I'm an accomplished IT professional with 14 years of experience developing and architecting IT applications across industries with a proven track record of delivering value to Healthcare, Telecom, and Service Industries businesses. I wanted to upskill myself and embrace the changes and happenings in recent years in IT. So, I took a break and came to the US for a master's, and I'm also doing the Berkeley Coding Bootcamp for additional skills. Apart from work and studies, I love watching movies, listening to music, and sometimes reading books. I empathize with people and hate all kinds of discrimination against people in all forms.
                     </p>
                </Tab>
                     
-               <Tab eventKey="experience" title="Experience">
+               <Tab eventKey="experience" title="Experience" className='tabBody'>
                     <p>
                          Part of ESS for the past 13 years with experience in developing and architecting IT applications across industries with proven track record of delivering value to business in Healthcare, Telecom and Service Industries.
                     </p>
@@ -30,19 +30,19 @@ function TabSample() {
                     </ul>
                </Tab> 
 
-               <Tab eventKey="projects" title="Projects">
+               <Tab eventKey="projects" title="Projects" className='tabBody'>
                     Tab content for Projects
                </Tab> 
           
-               <Tab eventKey="education" title="Education">
+               <Tab eventKey="education" title="Education" className='tabBody'>
                     Tab content for Education
                </Tab>
 
-               <Tab eventKey="skills" title="Skills">
+               <Tab eventKey="skills" title="Skills" className='tabBody'>
                     Tab content for Skills
                </Tab>
 
-                <Tab eventKey="awards" title="Awards">
+                <Tab eventKey="awards" title="Awards" className='tabBody'>
                     Tab content for Awards
                </Tab>
           </Tabs>

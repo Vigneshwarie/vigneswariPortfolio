@@ -6,8 +6,9 @@
      width: 100%;
      display: flex;
      justify-content: flex-end;
-     align-items: flex-end;
      text-align: left;
+     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+     color: #636363;
 }
 
 .header h1 {
