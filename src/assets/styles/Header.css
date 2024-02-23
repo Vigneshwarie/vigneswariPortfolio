@@ -1,0 +1,19 @@
+.header {
+     background-image: url('../images/abstract-textured-backgound.jpg');
+     background-size: cover;
+     background-position: center;
+     background-blend-mode: normal;
+     min-height: 20vh;
+     width: 100%;
+     display: flex;
+     justify-content: flex-end;
+     align-items: flex-end;
+     text-align: left;
+     color: white;
+}
+
+.header h1 {
+     margin: 0;
+     padding-top: 75px;
+     font-size: 2rem;
+}
