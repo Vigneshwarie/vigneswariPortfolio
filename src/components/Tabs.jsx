@@ -1,12 +1,13 @@
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import '../assets/styles/Tab.css';
 
 function TabSample() {
      return (
           <Tabs
                defaultActiveKey="profile"
                id="fill-tab-example"
-               className="mb-3"
+               className="mb-3 tabHeader"
                fill
           >    
                <Tab eventKey="about" title="About">
