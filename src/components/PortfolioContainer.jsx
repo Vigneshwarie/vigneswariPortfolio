@@ -1,6 +1,7 @@
 import NavigationTabs from "./NavigationTabs";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
+import Education from "./pages/Education";
 import { useState } from "react";  
 
 
@@ -13,8 +14,11 @@ function PortfolioContainer() {
           if (currentPage === 'Experience') {
                return <Experience />;
           }
+           if (currentPage === 'Education') {
+               return <Education />;
+          }
      };
-     
+
      const handlePageChange = (page) => setCurrentPage(page);
      return (
           <div>
