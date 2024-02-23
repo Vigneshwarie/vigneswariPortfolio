@@ -1,9 +1,10 @@
 import github_logo from '../assets/images/github-icon.png';
 import linkedin_logo from '../assets/images/linkedin-icon.png';
+import '../assets/styles/Footer.css';
 
 function Footer() {
      return (
-          <footer>
+          <footer className="footer">
                <p>
                     <small> &copy; Developed by Vigneswari Sambandam</small>
                </p>

@@ -1,7 +1,6 @@
 .header {
-     background-image: url('../images/abstract-textured-backgound.jpg');
+     background-image: url('../images/pink-toned-cardboard-sheets-with-copy-space.jpg');
      background-size: cover;
-     background-position: center;
      background-blend-mode: normal;
      min-height: 20vh;
      width: 100%;
@@ -9,7 +8,6 @@
      justify-content: flex-end;
      align-items: flex-end;
      text-align: left;
-     color: white;
 }
 
 .header h1 {
