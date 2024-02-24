@@ -11,6 +11,14 @@
      color: #636363;
 }
 
+.nav-link .active{
+     background-color: #F5BFB5;
+     font-weight: bold;
+     color: #636363;
+}
+
+
+
 /*.tabHeader{
      display: flex;
      justify-content: space-around;

@@ -9,8 +9,8 @@ function Footer() {
                     <small> &copy; Developed by Vigneswari Sambandam</small>
                </p>
                <address>
-                    <p><img src="{github_logo}" /><a href="https://github.com/Vigneshwarie/">GitHub</a></p>
-                    <p><img src='{linkedin_logo}' /><a href="https://www.linkedin.com/in/vigneswari-sambandam-37b03730/">LinkedIn</a></p>
+                    <p><a href="https://github.com/Vigneshwarie/"><img src={github_logo} /></a>
+                    <a href="https://www.linkedin.com/in/vigneswari-sambandam-37b03730/"><img src={linkedin_logo} /></a></p>
                 </address>
           </footer>
      );
