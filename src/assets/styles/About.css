@@ -1,20 +1,22 @@
-.about{
+.about {
+     padding-top: 10px;
+     padding-bottom: 10px;
      align-items: left;
-     background-color: #FADFCA;
-     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+     background-color: #FCEAD8;
      font-size: small;
      font-weight: bold;
 }
 
-.about h3{
+.about h3 {
      font-size: 2em;
      color: #636363;
      font-weight: bold;
 }
 
-.about p{
-     font-size: 1em;
+.about p {
+     font-size: 1.2em;
      color: #636363;
      text-align: left;
      padding-left: 10px;
+     font-weight: normal;
 }

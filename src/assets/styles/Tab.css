@@ -1,4 +1,17 @@
-.tabHeader{
+.nav-tabs{
+     background-color: #FCEAD8;
+     font-size: large;
+     font-weight: bold;
+     color: #636363;
+}
+
+.nav-item{
+     background-color: #FCEAD8;
+     font-weight: bold;
+     color: #636363;
+}
+
+/*.tabHeader{
      display: flex;
      justify-content: space-around;
      align-items: center;
@@ -19,3 +32,5 @@
      font-size: medium;
      color: #636363;
 }
+
+*/
