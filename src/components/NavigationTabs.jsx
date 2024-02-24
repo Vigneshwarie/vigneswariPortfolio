@@ -1,4 +1,6 @@
-function NavigationTabs({currentPage, handlePageChange }) {
+import "../assets/styles/Tab.css";
+
+function NavigationTabs({ currentPage, handlePageChange }) {
      return (
           <ul className="nav nav-tabs">
                <li className="nav-item">
@@ -23,7 +25,9 @@ function NavigationTabs({currentPage, handlePageChange }) {
                     <a className="nav-link" href="#skills">Skills</a>
                </li>
                <li className="nav-item">
-                    <a className="nav-link" href="#awards">Awards</a>
+                    <a href="#awards"
+                         onClick={() => handlePageChange('Awards')}
+                         className={currentPage === 'Awards' ? 'nav-link active' : 'nav-link'} >Awards</a>
                </li>
                <li className="nav-item">
                     <a className="nav-link" href="#contact">Contact</a>

@@ -2,6 +2,7 @@ import NavigationTabs from "./NavigationTabs";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Education from "./pages/Education";
+import Awards from "./pages/Awards";
 import { useState } from "react";  
 
 
@@ -14,8 +15,11 @@ function PortfolioContainer() {
           if (currentPage === 'Experience') {
                return <Experience />;
           }
-           if (currentPage === 'Education') {
+          if (currentPage === 'Education') {
                return <Education />;
+          }
+          if (currentPage === 'Awards') {
+               return <Awards />;
           }
      };
 
