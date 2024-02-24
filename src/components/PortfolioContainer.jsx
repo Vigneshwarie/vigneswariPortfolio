@@ -3,6 +3,7 @@ import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Education from "./pages/Education";
 import Awards from "./pages/Awards";
+import Skills from "./pages/Skills";
 import { useState } from "react";  
 
 
@@ -20,6 +21,9 @@ function PortfolioContainer() {
           }
           if (currentPage === 'Awards') {
                return <Awards />;
+          }
+          if (currentPage === 'Skills') {
+               return <Skills />;
           }
      };
 

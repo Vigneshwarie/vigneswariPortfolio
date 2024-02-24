@@ -1,0 +1,30 @@
+.skills {
+     padding-top: 10px;
+     padding-bottom: 10px;
+     align-items: left;
+     background-color: #FCEAD8;
+     font-size: small;
+     font-weight: bold;
+}
+
+.skills h3 {
+     font-size: 2em;
+     color: #636363;
+     font-weight: bold;
+}
+
+.skills h5 {
+     font-size: 1.5em;
+     color: #636363;
+     font-weight: bold;
+     text-align: left;
+     padding-left: 10px;
+}
+
+.skills li {
+     font-size: 1.2em;
+     color: #636363;
+     text-align: left;
+     padding-left: 10px;
+     font-weight: normal;
+}

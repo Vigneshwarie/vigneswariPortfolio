@@ -22,7 +22,9 @@ function NavigationTabs({ currentPage, handlePageChange }) {
                          className={currentPage === 'Education' ? 'nav-link active' : 'nav-link'} >Education</a>
                </li>
                <li className="nav-item">
-                    <a className="nav-link" href="#skills">Skills</a>
+                    <a href="#skills"
+                         onClick={() => handlePageChange('Skills')}
+                         className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'} >Skills</a>
                </li>
                <li className="nav-item">
                     <a href="#awards"
