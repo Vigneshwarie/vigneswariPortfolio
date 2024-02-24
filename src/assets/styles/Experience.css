@@ -1,0 +1,30 @@
+.experience {
+     padding-top: 10px;
+     padding-bottom: 10px;
+     align-items: left;
+     background-color: #FCEAD8;
+     font-size: small;
+     font-weight: bold;
+}
+
+.experience h3 {
+     font-size: 2em;
+     color: #636363;
+     font-weight: bold;
+}
+
+.experience h5{
+     font-size: 1.5em;
+     color: #636363;
+     font-weight: bold;
+     text-align: left;
+     padding-left: 10px;
+}
+
+.experience li {
+     font-size: 1.2em;
+     color: #636363;
+     text-align: left;
+     padding-left: 10px;
+     font-weight: normal;
+}
