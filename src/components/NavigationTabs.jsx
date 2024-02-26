@@ -35,7 +35,10 @@ function NavigationTabs({ currentPage, handlePageChange }) {
                          className={currentPage === 'Awards' ? 'nav-link active' : 'nav-link'} >Awards</a>
                </li>
                <li className="nav-item">
-                    <a className="nav-link" href="#contact">Contact</a>
+                    <a href="#contact"
+                         onClick={() => handlePageChange('Contact')}
+                         className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} 
+                         >Contact</a>
                </li>
                <li className="nav-item">
                     <a className="nav-link" href={resume} download="VSambandam - Tech Lead">Resume</a>

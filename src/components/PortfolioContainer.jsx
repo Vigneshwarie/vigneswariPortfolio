@@ -5,6 +5,7 @@ import Education from "./pages/Education";
 import Awards from "./pages/Awards";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 import { useState } from "react";  
 import "../assets/styles/PortfolioContainer.css";
 
@@ -29,6 +30,9 @@ function PortfolioContainer() {
           }
           if (currentPage === 'Awards') {
                return <Awards />;
+          }
+          if (currentPage === 'Contact') {
+               return <Contact />;
           }
           
      };
