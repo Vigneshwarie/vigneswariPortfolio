@@ -1,4 +1,5 @@
 import "../assets/styles/Tab.css";
+import resume from "../assets/resume/VSambandam - Tech Lead US.pdf";
 
 function NavigationTabs({ currentPage, handlePageChange }) {
      return (
@@ -35,7 +36,7 @@ function NavigationTabs({ currentPage, handlePageChange }) {
                     <a className="nav-link" href="#contact">Contact</a>
                </li>
                <li className="nav-item">
-                    <a className="nav-link" href="#resume">Resume</a>
+                    <a className="nav-link" href={resume} download="VSambandam - Tech Lead">Resume</a>
                </li>
           </ul>
      );
