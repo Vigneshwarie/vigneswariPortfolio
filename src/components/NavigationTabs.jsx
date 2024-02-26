@@ -1,5 +1,5 @@
 import "../assets/styles/Tab.css";
-import resume from "../assets/resume/VSambandam - Tech Lead US.pdf";
+
 
 function NavigationTabs({ currentPage, handlePageChange }) {
      return (
@@ -41,7 +41,9 @@ function NavigationTabs({ currentPage, handlePageChange }) {
                          >Contact</a>
                </li>
                <li className="nav-item">
-                    <a className="nav-link" href={resume} download="VSambandam - Tech Lead">Resume</a>
+                    <a href="#resume"
+                         onClick={() => handlePageChange('Resume')}
+                         className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
                </li>
           </ul>
      );

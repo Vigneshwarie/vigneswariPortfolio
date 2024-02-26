@@ -1,0 +1,20 @@
+.resume {
+     padding: 10px;
+     align-items: left;
+     background-color: #FCEAD8;
+     font-size: small;
+     font-weight: bold;
+}
+
+.resume h3 {
+     font-size: 2em;
+     color: #636363;
+     font-weight: bold;
+}
+
+.resume p {
+     font-size: 1.2em;
+     color: #636363;
+     text-align: left;
+     font-weight: normal;
+}
