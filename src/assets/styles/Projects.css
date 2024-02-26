@@ -23,3 +23,10 @@
      width: '20rem';
      height: '20rem';
 }
+
+.imgProject {
+     width: 500px;
+     height: 500px;
+     padding: 10px;
+     margin:10px;
+}
