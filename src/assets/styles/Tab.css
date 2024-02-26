@@ -1,44 +1,24 @@
-.nav-tabs{
+.nav-tabs {
      background-color: #FCEAD8;
      font-size: large;
      font-weight: bold;
      color: #636363;
 }
 
-.nav-item{
+.nav-item {
      background-color: #FCEAD8;
      font-weight: bold;
      color: #636363;
 }
 
-.nav-link .active{
+.nav-link.active {
      background-color: #F5BFB5;
      font-weight: bold;
      color: #636363;
+     -webkit-tap-highlight-color: #F5BFB5;
+     background: #F5BFB5;
+     border-color: #F5BFB5;
 }
 
 
 
-/*.tabHeader{
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     background-color: #FADFCA;
-     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
-     font-size: large;
-     font-weight: bold;
-     color: #636363;
-}
-
-.tabBody{
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     background-color: #FADFCA;
-     box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
-     height: 50vh;
-     font-size: medium;
-     color: #636363;
-}
-
-*/
