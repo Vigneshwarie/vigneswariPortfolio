@@ -11,8 +11,12 @@ import application_logo from '../../assets/images/application.png';
 import "../../assets/styles/Projects.css";
 
 // Importing all application images
-import vEather from "../../assets/projects/vEatherForecasting.png";
+import vEather from "../../assets/projects/vEatherForecasting2.png";
 import munchmonitor from "../../assets/projects/mmlogo1.png";
+import narrativenest from "../../assets/projects/VSNarrativeNest.png";
+import taskManager from "../../assets/projects/taskManager.png";
+import notesKeeper from "../../assets/projects/notesKeeper.png";
+import quizlathon from "../../assets/projects/quizlathon.png";
 
 function Projects() {
      return (
@@ -32,7 +36,16 @@ function Projects() {
                                         </aside>
                                    </Col>
                                    <Col>
-                                         <Image src={vEather} thumbnail className='imgProject' />
+                                        <Image src={narrativenest} thumbnail className='imgProject' />
+                                        <aside>
+                                             <p>
+                                                  <a href="https://github.com/Vigneshwarie/VSNarrativeNest"><img src={github_logo} /></a>
+                                                  <a href="https://vs-narrative-nest-75a09defd366.herokuapp.com/"><img src={application_logo} /></a>
+                                             </p>
+                                        </aside>
+                                   </Col>
+                                   <Col>
+                                        <Image src={vEather} thumbnail className='imgProject' />
                                         <aside>
                                              <p>
                                                   <a href="https://github.com/Vigneshwarie/vEatherForecasting"><img src={github_logo} /></a>
@@ -40,43 +53,34 @@ function Projects() {
                                              </p>
                                         </aside>
                                    </Col>
-                                   <Col>
-                                         <Card className='cardContainer'>
-                                             <Card.Img variant="top" src="holder.js/100px180" />
-                                             <Card.Body>
-                                                  <Card.Title>Project 3</Card.Title>
-                                                  <Button variant="primary">Go somewhere</Button>
-                                             </Card.Body>
-                                        </Card>
-                                   </Col>
                               </Row>
                               <Row>
                                    <Col>
-                                        <Card className='cardContainer'>
-                                             <Card.Img variant="top" src="holder.js/100px180" />
-                                             <Card.Body>
-                                                  <Card.Title>Project 4</Card.Title>
-                                                  <Button variant="primary">Go somewhere</Button>
-                                             </Card.Body>
-                                        </Card>
+                                        <Image src={taskManager} thumbnail className='imgProject'/>
+                                        <aside>
+                                             <p>
+                                                  <a href="https://github.com/Vigneshwarie/G6-Task-Manager"><img src={github_logo} /></a>
+                                                  <a href="https://vigneshwarie.github.io/G6-Task-Manager/"><img src={application_logo} /></a>
+                                             </p>
+                                        </aside>
                                    </Col>
                                    <Col>
-                                         <Card className='cardContainer'>
-                                             <Card.Img variant="top" src="holder.js/100px180" />
-                                             <Card.Body>
-                                                  <Card.Title>Project 5</Card.Title>
-                                                  <Button variant="primary">Go somewhere</Button>
-                                             </Card.Body>
-                                        </Card>
+                                        <Image src={notesKeeper} thumbnail className='imgProject'/>
+                                        <aside>
+                                             <p>
+                                                  <a href="https://github.com/Vigneshwarie/VS-Notes-Keeper"><img src={github_logo} /></a>
+                                                  <a href="https://vs-notes-keeper-b09b3efbcb78.herokuapp.com/"><img src={application_logo} /></a>
+                                             </p>
+                                        </aside>
                                    </Col>
                                    <Col>
-                                         <Card className='cardContainer'>
-                                             <Card.Img variant="top" src="holder.js/100px180" />
-                                             <Card.Body>
-                                                  <Card.Title>Project 6</Card.Title>
-                                                  <Button variant="primary">Go somewhere</Button>
-                                             </Card.Body>
-                                        </Card>
+                                        <Image src={quizlathon} thumbnail className='imgProject'/>
+                                        <aside>
+                                             <p>
+                                                  <a href="https://github.com/Vigneshwarie/JS-Quizlathon"><img src={github_logo} /></a>
+                                                  <a href="https://vigneshwarie.github.io/JS-Quizlathon/"><img src={application_logo} /></a>
+                                             </p>
+                                        </aside>
                                    </Col>
                               </Row>
                          </Container>                   
