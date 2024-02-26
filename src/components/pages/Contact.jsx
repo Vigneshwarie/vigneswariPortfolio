@@ -3,8 +3,31 @@ import Button from 'react-bootstrap/Button';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
+import { useState } from 'react';
 
 function Contact() {
+
+     const [username, setUserName] = useState('');
+     const [email, setEmail] = useState('');
+     const [message, setMessage] = useState('');
+     const [errorMessage, setErrorMessage] = useState('');
+     
+     const handleSubmit = (e) => {
+          e.preventDefault();
+
+          if (!username) {
+               setErrorMessage('Please enter your name');
+               return;
+          } else if (!email) {
+               setErrorMessage('Email is invalid or empty');
+               return;
+          } else if (!message) {
+               setErrorMessage('Please enter your message');
+               return;
+          }
+          
+     };
+
      return (
           <section className="contact">
                <div>
@@ -19,13 +42,13 @@ function Contact() {
                </div>
                <section>
                     <div>
-                         <Form className="frm">
+                         <Form className="frm" onSubmit={handleSubmit}>
                               <Form.Group as={Row} className="mb-3" controlId="formHorizontalName">
                                    <Form.Label column sm={1} className="lbl">
                                         Name
                                    </Form.Label>
                                    <Col sm={4}>
-                                        <Form.Control type="text" placeholder="Your Name" />
+                                        <Form.Control type="text" placeholder="Your Name" name="username"  />
                                    </Col>
                               </Form.Group>
                               <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
@@ -33,7 +56,7 @@ function Contact() {
                                         Email
                                    </Form.Label>
                                    <Col sm={4}>
-                                        <Form.Control type="email" placeholder="Your Email" />
+                                        <Form.Control type="email" placeholder="Your Email" name="email"  />
                                    </Col>
                               </Form.Group>
                               <Form.Group as={Row} className="mb-3" controlId="formHorizontalMessage">
@@ -41,15 +64,22 @@ function Contact() {
                                         Message
                                    </Form.Label>
                                    <Col sm={4}>
-                                        <Form.Control as="textarea" rows={4} placeholder="Your Message" />
+                                        <Form.Control as="textarea" rows={4} placeholder="Your Message" name="message" />
                                    </Col>
                               </Form.Group>
                               <Form.Group as={Row} className="mb-3">
                                    <Col sm={3}>
-                                        <Button type="button" className="btn">Submit</Button>
+                                        <Button type="submit" className="btn">Submit</Button>
                                    </Col>
                               </Form.Group>
                          </Form>
+                         {
+                              errorMessage && (
+                                   <div>
+                                        <p className="error-text">{errorMessage}</p>
+                                   </div>
+                              )
+                         }
                     </div>
                </section>
           </section>
