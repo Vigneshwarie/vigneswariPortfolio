@@ -25,9 +25,20 @@
      font-size: 1.2em;
 }
 
-.btn {
+.btn.btn-primary {
      background-color: #F5BFB5;
      color: #636363;
      font-size: 1.2em;
      font-weight: bold;
+     border-color: #F5BFB5;
+}
+
+.frm{
+     padding: 20px;
+     align-items: left;
+}
+
+.lbl {
+     text-align: left;
+     align-items: center;
 }
