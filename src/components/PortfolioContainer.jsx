@@ -6,6 +6,7 @@ import Awards from "./pages/Awards";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
 import { useState } from "react";  
+import "../assets/styles/PortfolioContainer.css";
 
 
 function PortfolioContainer() { 
@@ -23,20 +24,23 @@ function PortfolioContainer() {
           if (currentPage === 'Education') {
                return <Education />;
           }
-          if (currentPage === 'Awards') {
-               return <Awards />;
-          }
           if (currentPage === 'Skills') {
                return <Skills />;
           }
+          if (currentPage === 'Awards') {
+               return <Awards />;
+          }
+          
      };
 
      const handlePageChange = (page) => setCurrentPage(page);
      return (
-          <div>
-               <NavigationTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-               {renderPage()}
-          </div>
+          <section className="portfolio-container">
+               <div>
+                    <NavigationTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+                    {renderPage()}
+               </div>
+          </section>
      );
 }
 

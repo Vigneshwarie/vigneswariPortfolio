@@ -23,68 +23,66 @@ function Projects() {
           <section className='projects'>
                <div>
                     <h3>Projects</h3>
-                    <div className='container'>
-                         <Container>
-                              <Row>
-                                   <Col>
-                                        <Image src={munchmonitor} thumbnail className='imgProject' />
-                                        <aside>
-                                             <p>
-                                                  <a href="https://github.com/Vigneshwarie/munchMonitor"><img src={github_logo} /></a>
-                                                  <a href="https://munchmonitor-641029a8a248.herokuapp.com/"><img src={application_logo} /></a>
-                                             </p>
-                                        </aside>
-                                   </Col>
-                                   <Col>
-                                        <Image src={narrativenest} thumbnail className='imgProject' />
-                                        <aside>
-                                             <p>
-                                                  <a href="https://github.com/Vigneshwarie/VSNarrativeNest"><img src={github_logo} /></a>
-                                                  <a href="https://vs-narrative-nest-75a09defd366.herokuapp.com/"><img src={application_logo} /></a>
-                                             </p>
-                                        </aside>
-                                   </Col>
-                                   <Col>
-                                        <Image src={vEather} thumbnail className='imgProject' />
-                                        <aside>
-                                             <p>
-                                                  <a href="https://github.com/Vigneshwarie/vEatherForecasting"><img src={github_logo} /></a>
-                                                  <a href="https://vigneshwarie.github.io/vEatherForecasting/"><img src={application_logo} /></a>
-                                             </p>
-                                        </aside>
-                                   </Col>
-                              </Row>
-                              <Row>
-                                   <Col>
-                                        <Image src={taskManager} thumbnail className='imgProject'/>
-                                        <aside>
-                                             <p>
-                                                  <a href="https://github.com/Vigneshwarie/G6-Task-Manager"><img src={github_logo} /></a>
-                                                  <a href="https://vigneshwarie.github.io/G6-Task-Manager/"><img src={application_logo} /></a>
-                                             </p>
-                                        </aside>
-                                   </Col>
-                                   <Col>
-                                        <Image src={notesKeeper} thumbnail className='imgProject'/>
-                                        <aside>
-                                             <p>
-                                                  <a href="https://github.com/Vigneshwarie/VS-Notes-Keeper"><img src={github_logo} /></a>
-                                                  <a href="https://vs-notes-keeper-b09b3efbcb78.herokuapp.com/"><img src={application_logo} /></a>
-                                             </p>
-                                        </aside>
-                                   </Col>
-                                   <Col>
-                                        <Image src={quizlathon} thumbnail className='imgProject'/>
-                                        <aside>
-                                             <p>
-                                                  <a href="https://github.com/Vigneshwarie/JS-Quizlathon"><img src={github_logo} /></a>
-                                                  <a href="https://vigneshwarie.github.io/JS-Quizlathon/"><img src={application_logo} /></a>
-                                             </p>
-                                        </aside>
-                                   </Col>
-                              </Row>
-                         </Container>                   
-                    </div>
+                    <Container className='cardContainer'>
+                         <Row>
+                              <Col>
+                                   <Image src={munchmonitor} thumbnail className='imgProject' />
+                                   <aside>
+                                        <p>
+                                             <a href="https://github.com/Vigneshwarie/munchMonitor"><img src={github_logo} /></a>
+                                             <a href="https://munchmonitor-641029a8a248.herokuapp.com/"><img src={application_logo} /></a>
+                                        </p>
+                                   </aside>
+                              </Col>
+                              <Col>
+                                   <Image src={narrativenest} thumbnail className='imgProject' />
+                                   <aside>
+                                        <p>
+                                             <a href="https://github.com/Vigneshwarie/VSNarrativeNest"><img src={github_logo} /></a>
+                                             <a href="https://vs-narrative-nest-75a09defd366.herokuapp.com/"><img src={application_logo} /></a>
+                                        </p>
+                                   </aside>
+                              </Col>
+                              <Col>
+                                   <Image src={vEather} thumbnail className='imgProject' />
+                                   <aside>
+                                        <p>
+                                             <a href="https://github.com/Vigneshwarie/vEatherForecasting"><img src={github_logo} /></a>
+                                             <a href="https://vigneshwarie.github.io/vEatherForecasting/"><img src={application_logo} /></a>
+                                        </p>
+                                   </aside>
+                              </Col>
+                         </Row>
+                         <Row>
+                              <Col>
+                                   <Image src={taskManager} thumbnail className='imgProject'/>
+                                   <aside>
+                                        <p>
+                                             <a href="https://github.com/Vigneshwarie/G6-Task-Manager"><img src={github_logo} /></a>
+                                             <a href="https://vigneshwarie.github.io/G6-Task-Manager/"><img src={application_logo} /></a>
+                                        </p>
+                                   </aside>
+                              </Col>
+                              <Col>
+                                   <Image src={notesKeeper} thumbnail className='imgProject'/>
+                                   <aside>
+                                        <p>
+                                             <a href="https://github.com/Vigneshwarie/VS-Notes-Keeper"><img src={github_logo} /></a>
+                                             <a href="https://vs-notes-keeper-b09b3efbcb78.herokuapp.com/"><img src={application_logo} /></a>
+                                        </p>
+                                   </aside>
+                              </Col>
+                              <Col>
+                                   <Image src={quizlathon} thumbnail className='imgProject'/>
+                                   <aside>
+                                        <p>
+                                             <a href="https://github.com/Vigneshwarie/JS-Quizlathon"><img src={github_logo} /></a>
+                                             <a href="https://vigneshwarie.github.io/JS-Quizlathon/"><img src={application_logo} /></a>
+                                        </p>
+                                   </aside>
+                              </Col>
+                         </Row>
+                    </Container>                   
                </div>
           </section>
      );

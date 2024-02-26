@@ -14,14 +14,8 @@
 }
 
 .cardContainer {
-     font-size: 1.2em;
-     color: #636363;
-     text-align: left;
-     padding: 10px;
-     margin:10px;
-     font-weight: normal;
-     width: '20rem';
-     height: '20rem';
+     margin:0px;
+     padding:0px;
 }
 
 .imgProject {
