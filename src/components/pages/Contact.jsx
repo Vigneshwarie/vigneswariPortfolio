@@ -1,6 +1,12 @@
+import "../../assets/styles/Contact.css";
+import Button from 'react-bootstrap/Button';
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
+
 function Contact() {
      return (
-          <section>
+          <section className="contact">
                <div>
                     <h3>Contact Me</h3>
                     <div>
@@ -11,6 +17,41 @@ function Contact() {
                          <p>I am looking forward to connecting with you!</p>
                     </div>
                </div>
+               <section>
+                    <div>
+                         <Form>
+                              <Form.Group as={Row} className="mb-3" controlId="formHorizontalName">
+                                   <Form.Label column sm={2}>
+                                        Name
+                                   </Form.Label>
+                                   <Col sm={4}>
+                                        <Form.Control type="text" placeholder="Your Name" />
+                                   </Col>
+                              </Form.Group>
+                              <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
+                                   <Form.Label column sm={2}>
+                                        Email
+                                   </Form.Label>
+                                   <Col sm={4}>
+                                        <Form.Control type="email" placeholder="Your Email" />
+                                   </Col>
+                              </Form.Group>
+                              <Form.Group as={Row} className="mb-3" controlId="formHorizontalMessage">
+                                   <Form.Label column sm={2}>
+                                        Message
+                                   </Form.Label>
+                                   <Col sm={4}>
+                                        <Form.Control as="textarea" rows={4} placeholder="Your Message" />
+                                   </Col>
+                              </Form.Group>
+                              <Form.Group as={Row} className="mb-3">
+                                   <Col>
+                                        <Button type="button" className="btn">Submit</Button>
+                                   </Col>
+                              </Form.Group>
+                         </Form>
+                    </div>
+               </section>
           </section>
      );
 }
