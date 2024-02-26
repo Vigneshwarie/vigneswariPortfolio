@@ -4,6 +4,7 @@ import Experience from "./pages/Experience";
 import Education from "./pages/Education";
 import Awards from "./pages/Awards";
 import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
 import { useState } from "react";  
 
 
@@ -15,6 +16,9 @@ function PortfolioContainer() {
           }
           if (currentPage === 'Experience') {
                return <Experience />;
+          }
+          if (currentPage === 'Projects') {
+               return <Projects />;
           }
           if (currentPage === 'Education') {
                return <Education />;

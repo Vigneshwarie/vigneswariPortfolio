@@ -1,0 +1,25 @@
+.projects {
+     padding-top: 10px;
+     padding-bottom: 10px;
+     align-items: left;
+     background-color: #FCEAD8;
+     font-size: small;
+     font-weight: bold;
+}
+
+.projects h3 {
+     font-size: 2em;
+     color: #636363;
+     font-weight: bold;
+}
+
+.cardContainer {
+     font-size: 1.2em;
+     color: #636363;
+     text-align: left;
+     padding: 10px;
+     margin:10px;
+     font-weight: normal;
+     width: '20rem';
+     height: '20rem';
+}
