@@ -11,7 +11,7 @@ function Contact() {
      const [email, setEmail] = useState('');
      const [message, setMessage] = useState('');
      const [errorMessage, setErrorMessage] = useState('');
-     
+
      const handleSubmit = (e) => {
           e.preventDefault();
 
@@ -24,9 +24,24 @@ function Contact() {
           } else if (!message) {
                setErrorMessage('Please enter your message');
                return;
-          }
+          } 
           
+          setUserName('');
+          setEmail('');
+          setMessage('');
      };
+
+     const handleInputChange = (e) => { 
+          const { name, value } = e.target;
+          if (name === 'username') {
+               setUserName(value);
+          } else if (name === 'email') {
+               setEmail(value);
+          } else if (name === 'message') {
+               setMessage(value);
+          }
+     }
+
 
      return (
           <section className="contact">
@@ -48,7 +63,7 @@ function Contact() {
                                         Name
                                    </Form.Label>
                                    <Col sm={4}>
-                                        <Form.Control type="text" placeholder="Your Name" name="username"  />
+                                        <Form.Control type="text" placeholder="Your Name" name="username" onChange={handleInputChange} />
                                    </Col>
                               </Form.Group>
                               <Form.Group as={Row} className="mb-3" controlId="formHorizontalEmail">
@@ -56,7 +71,7 @@ function Contact() {
                                         Email
                                    </Form.Label>
                                    <Col sm={4}>
-                                        <Form.Control type="email" placeholder="Your Email" name="email"  />
+                                        <Form.Control type="email" placeholder="Your Email" name="email"  onChange={handleInputChange} />
                                    </Col>
                               </Form.Group>
                               <Form.Group as={Row} className="mb-3" controlId="formHorizontalMessage">
@@ -64,7 +79,7 @@ function Contact() {
                                         Message
                                    </Form.Label>
                                    <Col sm={4}>
-                                        <Form.Control as="textarea" rows={4} placeholder="Your Message" name="message" />
+                                        <Form.Control as="textarea" rows={4} placeholder="Your Message" name="message" onChange={handleInputChange} />
                                    </Col>
                               </Form.Group>
                               <Form.Group as={Row} className="mb-3">
