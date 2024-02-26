@@ -1,5 +1,4 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 import Col from 'react-bootstrap/Col';
@@ -21,9 +20,9 @@ function Projects() {
           <section className='projects'>
                <div>
                     <h3>Projects</h3>
-                    <Container className='cardContainer'>
+                    <div>
                          <Row>
-                              <Col>
+                              <Col xs={4}>
                                    <Image src={munchmonitor} thumbnail className='imgProject' />
                                    <aside>
                                         <p>
@@ -32,7 +31,7 @@ function Projects() {
                                         </p>
                                    </aside>
                               </Col>
-                              <Col>
+                              <Col xs={4}>
                                    <Image src={narrativenest} thumbnail className='imgProject' />
                                    <aside>
                                         <p>
@@ -41,7 +40,7 @@ function Projects() {
                                         </p>
                                    </aside>
                               </Col>
-                              <Col>
+                              <Col xs={4}>
                                    <Image src={vEather} thumbnail className='imgProject' />
                                    <aside>
                                         <p>
@@ -52,7 +51,7 @@ function Projects() {
                               </Col>
                          </Row>
                          <Row>
-                              <Col>
+                              <Col xs={4}>
                                    <Image src={taskManager} thumbnail className='imgProject'/>
                                    <aside>
                                         <p>
@@ -61,7 +60,7 @@ function Projects() {
                                         </p>
                                    </aside>
                               </Col>
-                              <Col>
+                              <Col xs={4}>
                                    <Image src={notesKeeper} thumbnail className='imgProject'/>
                                    <aside>
                                         <p>
@@ -70,7 +69,7 @@ function Projects() {
                                         </p>
                                    </aside>
                               </Col>
-                              <Col>
+                              <Col xs={4}>
                                    <Image src={quizlathon} thumbnail className='imgProject'/>
                                    <aside>
                                         <p>
@@ -80,7 +79,7 @@ function Projects() {
                                    </aside>
                               </Col>
                          </Row>
-                    </Container>                   
+                    </div>                   
                </div>
           </section>
      );

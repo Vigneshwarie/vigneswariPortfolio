@@ -1,12 +1,11 @@
 .header {
      background-image: url('../images/pink-toned-cardboard-sheets-with-copy-space.jpg');
      background-size: cover;
-     background-blend-mode: normal;
+     background-repeat: repeat-x;
      min-height: 20vh;
      width: 100%;
      display: flex;
      justify-content: flex-end;
-     align-items: center;
 }
 
 .header h1 {
