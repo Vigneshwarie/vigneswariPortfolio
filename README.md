@@ -11,7 +11,7 @@ To install Node.js, follow the guidelines mentioned in the link: https://nodejs.
 
 ## Usage
 
-The deployed application can be accessed using the link 
+The deployed application can be accessed using the link https://strong-sunshine-c9718c.netlify.app/
 
 The application source code can be accessed using the link https://github.com/Vigneshwarie/vigneswariPortfolio
 
