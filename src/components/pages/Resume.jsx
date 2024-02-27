@@ -13,14 +13,12 @@ function Resume() {
                     <h3>Resume</h3>
                     <div>
                          <Row>
-                              <Col xs={1}>
-                                   <Image src={profile} thumbnail />
-                              </Col>
-                               <Col xs={11}>         
-                                   <p>
-                                         <a className="nav-link" href={resume} download="VSambandam - Tech Lead">Download Resume</a>      
+                               <Col xs={4}>
+                                    <p>
+                                        <Image src={profile} thumbnail />   
+                                        <a className="nav-link" href={resume} download="VSambandam - Tech Lead">Download Resume</a> 
                                    </p>
-                              </Col>
+                               </Col>
                          </Row>
                     </div>  
                </div>
