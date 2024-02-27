@@ -12,6 +12,8 @@
      -webkit-font-smoothing: antialiased;
      -moz-osx-font-smoothing: grayscale;
      -webkit-text-size-adjust: 100%;
+     display: flex;
+     flex-direction: column;
 }
 
 a {
@@ -30,7 +32,6 @@ body {
      min-width: 320px;
      min-height: 100vh;
      background-color: #FCEAD8;
-
 }
 
 h1 {
