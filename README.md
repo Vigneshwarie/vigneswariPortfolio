@@ -39,6 +39,10 @@ https://react-bootstrap.netlify.app/docs/components/images
 
 https://react-bootstrap.netlify.app/docs/components/tabs
 
+Avatar and Icons - https://www.vecteezy.com/
+
+Application Logos - https://www.freelogodesign.org/ 
+
 ## License
 
 Please refer to the LICENSE in the repo.
