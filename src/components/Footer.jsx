@@ -1,5 +1,5 @@
 import github_logo from '../assets/images/github-icon.png';
-import linkedin_logo from '../assets/images/linkedin-icon.png';
+import linkedin_logo from '../assets/images/linkedIn-icon.png';
 import '../assets/styles/Footer.css';
 
 function Footer() {
