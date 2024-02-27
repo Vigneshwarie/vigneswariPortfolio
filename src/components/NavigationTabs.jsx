@@ -1,49 +1,50 @@
 import "../assets/styles/Tab.css";
+import { Link, useLocation } from 'react-router-dom';
 
 
-function NavigationTabs({ currentPage, handlePageChange }) {
+function NavigationTabs() {
+     const currentPage = useLocation().pathname;
      return (
           <ul className="nav nav-tabs">
                <li className="nav-item">
-                    <a href="#about"
-                         onClick={() => handlePageChange('About')}
-                         className={currentPage === 'About' ? 'nav-link active' : 'nav-link'} >About</a>
+                    <Link to="/" className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>
+                         About
+                    </Link>
                </li>
                <li className="nav-item">
-                    <a href="#experience"
-                         onClick={() => handlePageChange('Experience')}
-                         className={currentPage === 'Experience' ? 'nav-link active' : 'nav-link'} >Experience</a>
+                    <Link to="/Experience" className={currentPage === '/Experience' ? 'nav-link active' : 'nav-link'}>
+                         Experience
+                    </Link>
                </li>
                <li className="nav-item">
-                    <a href="#projects"
-                         onClick={() => handlePageChange('Projects')}
-                         className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'} >Projects</a>
+                    <Link to="/Projects" className={currentPage === '/Projects' ? 'nav-link active' : 'nav-link'}>
+                         Projects
+                    </Link>
                </li>
                <li className="nav-item">
-                    <a href="#education"
-                         onClick={() => handlePageChange('Education')}
-                         className={currentPage === 'Education' ? 'nav-link active' : 'nav-link'} >Education</a>
+                    <Link to="/Education" className={currentPage === '/Education' ? 'nav-link active' : 'nav-link'}>
+                         Education
+                    </Link>
                </li>
                <li className="nav-item">
-                    <a href="#skills"
-                         onClick={() => handlePageChange('Skills')}
-                         className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'} >Skills</a>
+                    <Link to="/Skills" className={currentPage === '/Skills' ? 'nav-link active' : 'nav-link'}>
+                         Skills
+                    </Link>
                </li>
                <li className="nav-item">
-                    <a href="#awards"
-                         onClick={() => handlePageChange('Awards')}
-                         className={currentPage === 'Awards' ? 'nav-link active' : 'nav-link'} >Awards</a>
+                    <Link to="/Awards" className={currentPage === '/Awards' ? 'nav-link active' : 'nav-link'}>
+                         Awards
+                    </Link>
                </li>
                <li className="nav-item">
-                    <a href="#contact"
-                         onClick={() => handlePageChange('Contact')}
-                         className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'} 
-                         >Contact</a>
+                    <Link to="/Contact" className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}>
+                         Contact
+                    </Link>
                </li>
                <li className="nav-item">
-                    <a href="#resume"
-                         onClick={() => handlePageChange('Resume')}
-                         className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}>Resume</a>
+                    <Link to="/Resume" className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}>
+                         Resume
+                    </Link>
                </li>
           </ul>
      );

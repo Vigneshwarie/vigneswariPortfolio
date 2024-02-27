@@ -1,15 +1,16 @@
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import PortfolioContainer from './components/PortfolioContainer';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Outlet } from 'react-router-dom';
+import NavigationTabs from './components/NavigationTabs';
 
 
 function App() {
      return (
           <div>
                <Header />
-               <PortfolioContainer />
+               <NavigationTabs />
+               <Outlet />
                <Footer />
           </div>
      );
