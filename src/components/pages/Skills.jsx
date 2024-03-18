@@ -7,7 +7,7 @@ function Skills() {
                <div>
                     <h5>Full Stack</h5>
                     <ul>
-                         <li>JavaScript, Node JS, Express JS, REST APIs, Jest, React JS, HTML5, CSS, Bootstrap</li>
+                         <li>JavaScript, Node JS, Express JS, REST APIs, Jest, React JS, Mongoose ODM, HTML5, CSS, Bootstrap, MERN, GraphQL, JWT</li>
                     </ul>
                     <h5>Cloud</h5>
                     <ul>
