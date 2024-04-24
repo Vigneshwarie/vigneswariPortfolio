@@ -11,7 +11,7 @@ import Awards from "./components/pages/Awards";
 import Skills from "./components/pages/Skills";
 import Projects from "./components/pages/Projects";
 import Contact from "./components/pages/Contact";
-import Resume from "./components/pages/Resume";
+//import Resume from "./components/pages/Resume";
 
 const router = createBrowserRouter([
      {
@@ -45,10 +45,6 @@ const router = createBrowserRouter([
                {
                     path: '/Contact',
                     element: <Contact />,
-               },
-               {
-                    path: '/Resume',
-                    element: <Resume />,
                },
           ],
      },
