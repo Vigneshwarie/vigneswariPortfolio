@@ -7,19 +7,19 @@ function Skills() {
                <div>
                     <h5>Full Stack</h5>
                     <ul>
-                         <li>JavaScript, Node JS, Express JS, REST APIs, Jest, React JS, Mongoose ODM, HTML5, CSS, Bootstrap, MERN, GraphQL, JWT</li>
+                         <li>React JS, Node JS, Express JS, GraphQL, JavaScript, REST APIs, Jest, JWT, Mongoose ODM, HTML5, CSS, Bootstrap, jQuery, Ajax, MERN</li>
                     </ul>
                     <h5>Cloud</h5>
                     <ul>
-                         <li>AWS, EC2, EKS, S3, RDS, IAM</li>
+                         <li>AWS, EC2, EKS, S3, RDS, IAM, GCP</li>
                     </ul>
                     <h5>Programming Languages</h5>
                     <ul>
-                         <li>Python, Java, J2EE, C#, .Net</li>
+                         <li>Python, Java, J2EE, C#, .Net, SQL</li>
                     </ul>
                     <h5>Databases</h5>
                     <ul>
-                         <li>SQL, MSSQL, MySQL, Oracle, MongoDB</li>
+                         <li>MongoDB, MSSQL, MySQL, Oracle</li>
                     </ul>
                     <h5>Low Code Platforms</h5>
                      <ul>
