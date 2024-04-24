@@ -25,8 +25,6 @@ On successful installation and execution, the application will run successfully 
 
 ![alt text](src/assets/images/Skills.png)
 
-![alt text](src/assets/images/Contact.png)
-
 ## Credits
 
 The below links on react bootstrap documentation were useful in understanding the usage of the components
